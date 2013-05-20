@@ -1,0 +1,1 @@
+{"div#main ul":{"width":"600px","border":"1px solid red","padding":"10px"},"ul > li":{"color":"blue","margin":"0 10px","list-style":"none"},"li:first-child":{"color":"green"},"li:last-child":{"color":"red","text-decoration":"underline"},"li":null}
