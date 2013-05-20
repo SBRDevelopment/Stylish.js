@@ -233,7 +233,7 @@
 			selector = ""
 
 			if $this.is('.select-up')
-				level++ if level < @$element.parents().size()
+				level++ if level < @$element.parentsUntil(@$container.parent()).size()
 			else
 				level-- if level > 0
 

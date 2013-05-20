@@ -262,7 +262,7 @@ var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments)
       level = this.$element.data('level') || 0;
       selector = "";
       if ($this.is('.select-up')) {
-        if (level < this.$element.parents().size()) {
+        if (level < this.$element.parentsUntil(this.$container.parent()).size()) {
           level++;
         }
       } else {
